@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="animate.min.css"/>
+    <style>
+        .tarjeta {
+            box-shadow: 0px 0px 20px grey;
+            border: 2px solid black;
+            padding-bottom: 20px;
+            max-height: 1100px;
+            height: 700px;
+        }
+        form{
+         max-width: 700px;
+         padding: 50px;
+         margin:auto;
+         height: 650px;
+         background-color: #fff;
+         box-shadow: 0px 0px 7px grey;
+         border-radius: 2px;
+        }
+
+        .container{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.containerImg{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+.itemImg> img{
+    padding: 5%;
+    width: 100px;
+    height: 100px;
+
+}
+.hImg>img{
+    width:80%;
+    height: 80%;
+}
+
+body{
+justify-content: center;}
+
+.obj>li{
+    justify-content: start;
+}
+
+.selected{
+opacity: 0.5;
+}
+    </style>
+</head>
+<body>
+    <div class="tarjeta">
+        <center>
+            <form id="form-encuesta" action="encuesta.php" method="post">
+            <p>Por favor, indica tu género.</p>
+            <select name="p1">
+                <option  value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>
+            </select>
+            <p>¿Cuál es el nivel más alto de educación que has completado?</p>
+            <select name="p2">
+                <option value="Escuela Primaria">Escuela Primaria</option>
+                <option value="Secundaria">Secundaria</option>
+                <option value="Preparatoria">Preparatoria </option>
+                <option value="Licenciatura">Licenciatura</option>
+            </select>
+
+            <p>¿Cuál es tu situación laboral actual?</p>
+            <select name="p3">
+                <option value="Empleo permanente de tiempo completo">Empleo permanente de tiempo completo</option>
+                <option value="Empleo no permanente">Empleo no permanente</option>
+                <option value="Empleo permanente de medio tiempo">Empleo permanente de medio tiempo</option>
+                <option value="Freelance">Freelance</option>
+                <option value="Desempleado">Desempleado</option>
+                <option value="Jubilado">Jubilado</option>
+                <option value="Estudiante de tiempo completo">Estudiante de tiempo completo</option>
+                <option value="Estudiante de tiempo parcial">Estudiante de tiempo parcial</option>
+            </select>
+            <p>¿Cuál es tu estado actual de relación?.</p>
+            <select name="p4">
+                <option value="Soltero">Soltero</option>
+                <option value="Relación casual">Relación casual</option>
+                <option value="Casado">Casado</option>
+            </select>
+            <p>¿Cuántos hijos tienes?.</p>
+            <select name="p5">
+                <option value="Ninguno">Ninguno</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="mas de 3">mas de 3</option>
+            </select>
+            <p>En una escala del 1 al 7, siendo el 7 el más alto, ¿qué tan feliz consideras que estás? <br>
+                Comparado con tus compañeros de trabajo o amigos, ¿te consideras más feliz que la mayoría de ellos?.</p>
+            <select name="p6">
+                <option value="Si">Si</option>
+                <option value="No">No</option>
+            </select>
+            <p>¿Con qué frecuencia te sientes solo?.</p>
+            <select name="p7">
+                <option value="Siempre">Siempre</option>
+                <option value="Muy a menudo">Muy a menudo</option>
+                <option value="A veces">A veces</option>
+                <option value="Rara vez">Rara vez</option>
+                <option value="Nunca">Nunca</option>
+            </select>
+            <p>¿Con qué frecuencia te sientes deprimido?.</p>
+            <select name="p8">
+                <option value="Siempre">Siempre</option>
+                <option value="Muy a menudo">Muy a menudo</option>
+                <option value="A veces">A veces</option>
+                <option value="Rara vez">Rara vez</option>
+                <option value="Nunca">Nunca</option>
+            </select>
+            <br>
+            <br>
+            <input type="submit"  id="Enviar"
+            value="enviar">      
+            </form>
+        
+        </center>
+
+    </div>
+
+<br>
+<br>
+    <div class="container text-center">
+        <h1 class="text-center">Selecione sus intereses</h1>
+        <div class="containerImg">
+            <div class="animate__animated itemImg animate__shakeX" id="diseno"><img src="img/diseno.png" alt=""></div>
+            <div class="animate__animated itemImg animate__shakeX" id="informatica"><img src="img/informatica.png" alt=""></div>
+            <div class="animate__animated itemImg animate__shakeX" id="cocina"><img src="img/cocina.png" alt=""></div>
+            <div class="animate__animated itemImg animate__shakeX" id="comic"><img src="img/comic.png" alt=""></div>
+            <div class="animate__animated itemImg animate__shakeX" id="gameboy"><img src="img/gameboy.png" alt=""></div>
+            <div class="animate__animated itemImg animate__shakeX" id="libro"><img src="img/libro.png" alt=""></div>
+            <div class="animate__animated itemImg animate__shakeX" id="moto"><img src="img/moto.png" alt=""></div>
+            <div class="animate__animated itemImg animate__shakeX" id="pelota"><img src="img/pelota.png" alt=""></div>
+            <div class="animate__animated itemImg animate__shakeX" id="taekwondo"><img src="img/taekwondo.png" alt=""></div>
+            <div class="animate__animated itemImg animate__shakeX" id="auricular"><img src="img/auricular.png" alt=""></div>
+        </div>
+<br>
+<br>
+
+        <script type="text/javascript" src="jquery.js"></script>
+<script>
+$(document).on('click','.itemImg',function(){
+    let element=$(this)[0];
+    if($(element).hasClass('selected')){
+        $(element).removeClass('selected');
+        
+
+    }else{
+    $(element).addClass('selected');    
+    }
+    
+    let obj=$('.selected');
+    // let html='';
+    //     for(let i=0;i<obj.length;i++){
+    //         html+=`
+    //         <input type="hidden" name="${$(obj[i]).attr('id')}">
+    //         `;   
+    //     }
+        
+    //     $('#form-encuesta').html($('#form-encuesta').html()+html);
+    //     console.log($('#form-encuesta'));
+});
+
+$('#form-encuesta').submit(function(e){
+    let obj=$('.selected');
+    if(obj.length<3){
+        alert('Por favor seleccione al menos tres elementos');
+        e.preventDefault();
+    }
+});
+</script>
+
+
+
+
+
+    <script>
+
+        $( document ).ready(function() {
+            let encuesta=$('#form-encuesta').children();
+            let array=window.location.search.split('=');
+            let hiddenID=`
+            <input type="hidden" name="id" value="${array[1]}">
+            `
+            $('#form-encuesta').html($('#form-encuesta').html()+hiddenID);
+            console.log( $('#form-encuesta').html());
+
+            for(let i=0;i<encuesta.length;i++){
+                if($(encuesta[i].localName=="select")){
+            console.log($(encuesta[i]));        
+                }
+
+            }
+            
+});
+
+    </script>
+</body>
+</html>

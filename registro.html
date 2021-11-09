@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <title>Registro</title>
+</head>
+
+<body>
+  <div class="fadeIn fadeInDown">
+    <div class="login-container">
+      <div class="login-info-container">
+        <h1 class="title">Registro</h1>
+        <form class="inputs-container" method="get" action="create.php">
+          <input class="input" name="user" type="text" placeholder="Usuario">
+          <input class="input" name="pass" type="password" placeholder="Contraseña">
+          <input class="input" name="mail" type="text" placeholder="Correo Electronico">
+          <input name="date" class="input" type="date" placeholder="fecha de nacimiento">
+          <input type="submit" style="text-align:center" class="btn btn-success" id="Enviar" value="Registrar"></input>
+          <p>Quieres volver? <a href="index.html"><span class="span">Logueate</span></a></p>
+        </form>
+      </div>
+      <img class="image-container" src="img/login.svg" alt="">
+    </div>
+  </div> 
+  <script src="moment.js"></script>
+  <script type="text/javascript" src="jquery.js"></script>
+  <script src="bootstrap.min.js"></script>
+  <script>
+   $('input[name=date]').val(moment().format('YYYY-MM-DD'));
+  </script>
+  <script>
+     let param=window.location.search;
+      let array=param.split('?');
+      console.log(array[1]);
+      let htmlForm=$('.login-info-container').html();
+      console.log(htmlForm);
+      let mensaje="";
+
+      if(array[1]==='e'){
+    
+        console.log('existe');
+        let alert=`
+      <div style="text-align:center" class="alert alert-warning alert-dismissible fade show" role="alert">
+      El usuario existe <a href="index.html">Click aqui</a> para loguearte
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+      `;
+      $('.login-info-container').html(alert+htmlForm);
+      }
+      
+      
+        
+  </script>
+</body>
+
+</html>

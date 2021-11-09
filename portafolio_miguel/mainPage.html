@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <link rel="stylesheet" href="assets/css/estilos.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+    
+    
+        <!-- =====BOX ICONS===== -->
+    
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Chamano Main</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            max-width: 1170px;
+            margin: auto;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .footer {
+            background-color: #24262b;
+            padding: 70px 0;
+        }
+
+        .footer-col {
+            width: 25%;
+            padding: 0 15px;
+        }
+
+        .footer-col h4 {
+            font-size: 18px;
+            color: #ffffff;
+            text-transform: capitalize;
+            margin-bottom: 35px;
+            font-weight: 500;
+            position: relative;
+        }
+
+        .footer-col h4::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -10px;
+            background-color: #e91e63;
+            height: 2px;
+            box-sizing: border-box;
+            width: 50px;
+        }
+
+        .footer-col ul li:not(:last-child) {
+            margin-bottom: 10px;
+        }
+
+        .footer-col ul li a {
+            font-size: 16px;
+            text-transform: capitalize;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 300;
+            color: #bbbbbb;
+            display: block;
+            transition: all 0.3s ease;
+        }
+
+        .footer-col ul li a:hover {
+            color: #ffffff;
+            padding-left: 8px;
+        }
+
+        .footer-col .social-links a {
+            display: inline-block;
+            height: 40px;
+            width: 40px;
+            background-color: rgba(255, 255, 255, 0.2);
+            margin: 0 10px 10px 0;
+            text-align: center;
+            line-height: 40px;
+            border-radius: 50%;
+            color: #ffffff;
+            transition: all 0.5s ease;
+        }
+
+        .footer-col .social-links a:hover {
+            color: #24262b;
+            background-color: #ffffff;
+        }
+
+        /*responsive*/
+        @media(max-width: 767px) {
+            .footer-col {
+                width: 50%;
+                margin-bottom: 30px;
+            }
+        }
+
+        @media(max-width: 574px) {
+            .footer-col {
+                width: 100%;
+            }
+        }
+    </style>
+    <!--
+SOFTY PINKO
+https://templatemo.com/tm-535-softy-pinko
+-->
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+
+    <link rel="stylesheet" href="assets/css/templatemo-softy-pinko.css">
+
+</head>
+
+<body>
+
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header">
+        <div class="header__container">
+            <img src="assets/img/perfil1.jpg" alt="" class="header__img">
+
+            <a href="#" class="header__logo">Chamano</a>
+
+            <div class="header__search">
+                <input type="search" placeholder="Search" class="header__input">
+                <i class='bx bx-search header__icon'></i>
+            </div>
+
+            <div class="header__toggle">
+                <i class='bx bx-menu' id="header-toggle"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- ***** Menu Start ***** -->
+    <div class="nav" id="navbar">
+        <nav class="nav__container">
+            <div>
+                <a href="#" class="nav__link nav__logo">
+                    <span class="nav__logo-name">Chamano</span>
+                </a>
+
+                <div class="nav__list">
+                    <div class="nav__items">
+                        <h3 class="nav__subtitle">Profile</h3>
+
+                        <a href="mainPage.html" class="nav__link active">
+                            <i class='bx bx-home nav__icon'></i>
+                            <span class="nav__name">Home</span>
+                        </a>
+
+                        <div class="nav__dropdown">
+                            <a href="#" class="nav__link">
+                                <i class='bx bx-user nav__icon'></i>
+                                <span class="nav__name">Profile</span>
+                                <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+                            </a>
+
+                            <div class="nav__dropdown-collapse">
+                                <div class="nav__dropdown-content">
+                                    <a href="#" class="nav__dropdown-item">Passwords</a>
+                                    <a href="#" class="nav__dropdown-item">Mail</a>
+                                    <a href="index.html" class="nav__dropdown-item">Cuenta</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="#" class="nav__link">
+                            <i class='bx bx-message-rounded nav__icon'></i>
+                            <span class="nav__name">Messages</span>
+                        </a>
+                    </div>
+
+                    <div class="nav__items">
+                        <h3 class="nav__subtitle">Menu</h3>
+
+                        <div class="nav__dropdown">
+                            <a href="#" class="nav__link">
+                                <i class='bx bx-bell nav__icon'></i>
+                                <span class="nav__name">Portafolio</span>
+                                <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+                            </a>
+
+                            <div class="nav__dropdown-collapse">
+                                <div class="nav__dropdown-content">
+                                    <a href="#" class="nav__dropdown-item">Program</a>
+                                    <a href="#" class="nav__dropdown-item">Program</a>
+                                    <a href="#" class="nav__dropdown-item">Program</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <a href="#" class="nav__link">
+                            <i class='bx bx-compass nav__icon'></i>
+                            <span class="nav__name">Explore</span>
+                        </a>
+                        <a href="#" class="nav__link">
+                            <i class='bx bx-bookmark nav__icon'></i>
+                            <span class="nav__name">Saved</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="../index.html" class="nav__link nav__logout">
+                <i class='bx bx-log-out nav__icon'></i>
+                <span class="nav__name">Log Out</span>
+            </a>
+        </nav>
+    </div>
+    <main class="l-main">
+        <!-- ***** Menu End ***** -->
+
+        <!-- ***** Header Area End ***** -->
+
+        <!-- ***** Welcome Area Start ***** -->
+        <div class="welcome-area" id="welcome">
+
+            <!-- ***** Header Text Start ***** -->
+            <div class="header-text">
+                <div class="container">
+                    <div class="row">
+                        <div class="offset-xl-3 col-xl-6 offset-lg-2 col-lg-8 col-md-12 col-sm-12">
+                            <h1>Te proveemos la mejor <strong>estrategia</strong><br>para empezar tu
+                                <strong>Emprendimiento</strong></h1>
+                            <p>En chamano, una plataforma profesional para que saques provecho de tus habilidades.</p>
+                            <a href="#features" class="main-button-slider">Descubre mas</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ***** Header Text End ***** -->
+        </div>
+        <!-- ***** Welcome Area End ***** -->
+
+        <!-- ***** Features Small Start ***** -->
+        <section class="section home-feature">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="row">
+                            <!-- ***** Features Small Item Start ***** -->
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-12"
+                                data-scroll-reveal="enter bottom move 50px over 0.6s after 0.2s">
+                                <div class="features-small-item">
+                                    <div class="icon">
+                                        <i><img src="assets/images/featured-item-01.png" alt=""></i>
+                                    </div>
+                                    <h5 class="features-title">Estrategia Moderna</h5>
+                                    <p>La vaca lola</p>
+                                </div>
+                            </div>
+                            <!-- ***** Features Small Item End ***** -->
+
+                            <!-- ***** Features Small Item Start ***** -->
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-12"
+                                data-scroll-reveal="enter bottom move 50px over 0.6s after 0.4s">
+                                <div class="features-small-item">
+                                    <div class="icon">
+                                        <i><img src="assets/images/featured-item-01.png" alt=""></i>
+                                    </div>
+                                    <h5 class="features-title">Mejor Comunicacion</h5>
+                                    <p>Tiene cabeza y tiene cola</p>
+                                </div>
+                            </div>
+                            <!-- ***** Features Small Item End ***** -->
+
+                            <!-- ***** Features Small Item Start ***** -->
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-12"
+                                data-scroll-reveal="enter bottom move 50px over 0.6s after 0.6s">
+                                <div class="features-small-item">
+                                    <div class="icon">
+                                        <i><img src="assets/images/featured-item-01.png" alt=""></i>
+                                    </div>
+                                    <h5 class="features-title">Marketing Definitivo</h5>
+                                    <p>Y hace Muuuuu</p>
+                                </div>
+                            </div>
+                            <!-- ***** Features Small Item End ***** -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ***** Features Small End ***** -->
+
+        <!-- ***** Features Big Item Start ***** -->
+        <section class="section padding-top-70 padding-bottom-0" id="features">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-12 col-sm-12 align-self-center"
+                        data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                        <img src="assets/images/left-image.png" class="rounded img-fluid d-block mx-auto" alt="App">
+                    </div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 align-self-center mobile-top-fix">
+                        <div class="left-heading">
+                            <h2 class="section-title">Hablemos de tus servicios</h2>
+                        </div>
+                        <div class="left-text">
+                            <p>Empezaras planteandote que quieres hacer, que tipo de servicio ofreceras. La mejor manera de empezar a emprender es conociendo tus capacidades.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="hr"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ***** Features Big Item End ***** -->
+
+        <!-- ***** Features Big Item Start ***** -->
+        <section class="section padding-bottom-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12 align-self-center mobile-bottom-fix">
+                        <div class="left-heading">
+                            <h2 class="section-title">Podras empezar con tu negocio digital</h2>
+                        </div>
+                        <div class="left-text">
+                            <p>Crea tu perfil definiendo que es lo que mostraras a los usuarios, entre mas completo el perfin mas oportunidad
+                                tendras de ser mas solicitado que otros.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-5 col-md-12 col-sm-12 align-self-center mobile-bottom-fix-big"
+                        data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+                        <img src="assets/images/right-image.png" class="rounded img-fluid d-block mx-auto" alt="App">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ***** Features Big Item End ***** -->
+
+        <!-- ***** Home Parallax Start ***** -->
+        <section class="mini" id="work-process">
+            <div class="mini-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="offset-lg-3 col-lg-6">
+                            <div class="info">
+                                <h1>trabajo en Proceso</h1>
+                                <p>no se</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ***** Mini Box Start ***** -->
+                    <div class="row">
+                        <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                            <a href="#" class="mini-box">
+                                <i><img src="assets/images/work-process-item-01.png" alt=""></i>
+                                <strong>avocado</strong>
+                                <span>salsa</span>
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                            <a href="#" class="mini-box">
+                                <i><img src="assets/images/work-process-item-01.png" alt=""></i>
+                                <strong>avocado</strong>
+                                <span>salsa</span>
+
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                            <a href="#" class="mini-box">
+                                <i><img src="assets/images/work-process-item-01.png" alt=""></i>
+                                <strong>avocado</strong>
+                                <span>salsa</span>
+
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                            <a href="#" class="mini-box">
+                                <i><img src="assets/images/work-process-item-01.png" alt=""></i>
+                                <strong>avocado</strong>
+                                <span>salsa</span>
+
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                            <a href="#" class="mini-box">
+                                <i><img src="assets/images/work-process-item-01.png" alt=""></i>
+                                <strong>avocado</strong>
+                                <span>salsa</span>
+
+                            </a>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                            <a href="#" class="mini-box">
+                                <i><img src="assets/images/work-process-item-01.png" alt=""></i>
+                                <strong>avocado</strong>
+                                <span>salsa</span>
+
+                            </a>
+                        </div>
+                    </div>
+                    <!-- ***** Mini Box End ***** -->
+                </div>
+            </div>
+        </section>
+   
+
+        <!-- ***** Blog Start ***** -->
+        <!-- <section class="section" id="blog">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="center-heading">
+                            <h2 class="section-title">Blog Entries</h2>
+                        </div>
+                    </div>
+                    <div class="offset-lg-3 col-lg-6">
+                        <div class="center-text">
+                            <p>Integer molestie aliquam gravida. Nullam nec arcu finibus, imperdiet nulla vitae,
+                                placerat nibh. Cras maximus venenatis molestie.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="blog-post-thumb">
+                            <div class="img">
+                                <img src="assets/images/blog-item-01.png" alt="">
+                            </div>
+                            <div class="blog-content">
+                                <h3>
+                                    <a href="#">Vivamus ac vehicula dui</a>
+                                </h3>
+                                <div class="text">
+                                    Cras aliquet ligula dui, vitae fermentum velit tincidunt id. Praesent eu finibus
+                                    nunc. Nulla in sagittis eros. Aliquam egestas augue.
+                                </div>
+                                <a href="#" class="main-button">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="blog-post-thumb">
+                            <div class="img">
+                                <img src="assets/images/blog-item-02.png" alt="">
+                            </div>
+                            <div class="blog-content">
+                                <h3>
+                                    <a href="#">Phasellus convallis augue</a>
+                                </h3>
+                                <div class="text">
+                                    Aliquam commodo ornare nisl, et scelerisque nisl dignissim ac. Vestibulum finibus
+                                    urna ut velit venenatis, vel ultrices sapien mattis.
+                                </div>
+                                <a href="#" class="main-button">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="blog-post-thumb">
+                            <div class="img">
+                                <img src="assets/images/blog-item-03.png" alt="">
+                            </div>
+                            <div class="blog-content">
+                                <h3>
+                                    <a href="#">Nam gravida purus non</a>
+                                </h3>
+                                <div class="text">
+                                    Maecenas eu erat vitae dui convallis consequat vel gravida nulla. Vestibulum finibus
+                                    euismod odio, ut tempus enim varius eu.
+                                </div>
+                                <a href="#" class="main-button">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- ***** Blog End ***** -->
+
+        <!-- ***** Contact Us Start ***** -->
+        <section class="section colored" id="contact-us">
+            <div class="container">
+                <!-- ***** Section Title Start ***** -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="center-heading">
+                            <h2 class="section-title">Contactanos</h2>
+                        </div>
+                    </div>
+                    <div class="offset-lg-3 col-lg-6">
+                        <div class="center-text">
+                            <p>Mediante esta seccion podras contactar con todo el equipo de chamano.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- ***** Section Title End ***** -->
+
+                <div class="row">
+                    <!-- ***** Contact Text Start ***** -->
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <h5 class="margin-bottom-30">Mantente en contacto</h5>
+                        <div class="contact-text">
+                            <p>Estamos en una etapa inicial, si notas fallos o criticas puedes reportarlos mediante esta seccion</p>
+                            <p>Todos los mensajes con contenido inadecuado seran betados.</p>
+                        </div>
+                    </div>
+                    <!-- ***** Contact Text End ***** -->
+
+                    <!-- ***** Contact Form Start ***** -->
+                    <div class="col-lg-8 col-md-6 col-sm-12">
+                        <div class="contact-form">
+                            <form id="contact" action="" method="get">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-12 col-sm-12">
+                                        <fieldset>
+                                            <input name="name" type="text" class="form-control" id="name"
+                                                placeholder="Nombre completo" required="">
+                                        </fieldset>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12 col-sm-12">
+                                        <fieldset>
+                                            <input name="email" type="email" class="form-control" id="email"
+                                                placeholder="Direccion de correo" required="">
+                                        </fieldset>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <fieldset>
+                                            <textarea name="message" rows="6" class="form-control" id="message"
+                                                placeholder="Tu Mensaje" required=""></textarea>
+                                        </fieldset>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <fieldset>
+                                            <button type="submit" id="form-submit" class="main-button">Enviar Mensaje</button>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- ***** Contact Form End ***** -->
+                </div>
+            </div>
+        </section>
+        <!-- ***** Contact Us End ***** -->
+
+        <!-- ***** Footer Start ***** -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>Compañia</h4>
+                        <ul>
+                            <li><a href="#">Acerca de nosotros</a></li>
+                            <li><a href="#">Nuestros servicios</a></li>
+                            <li><a href="#">Politica de Privacidad</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Obten ayuda</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">#</a></li>
+                            <li><a href="#">#</a></li>
+                            <li><a href="#">#</a></li>
+                            <li><a href="#">Opciones de pago</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Advertising</h4>
+                        <ul>
+                            <li><a href="#">#</a></li>
+                            <li><a href="#">#</a></li>
+                            <li><a href="#">#</a></li>
+                            <li><a href="#">#</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Siguenos</h4>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/miguel.Jhair.3139/"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- jQuery -->
+        <script src="assets/js/jquery-2.1.0.min.js"></script>
+
+        <!-- Bootstrap -->
+        <script src="assets/js/popper.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+
+        <!-- Plugins -->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        <script src="assets/js/waypoints.min.js"></script>
+        <script src="assets/js/jquery.counterup.min.js"></script>
+        <script src="assets/js/imgfix.min.js"></script>
+
+        <!-- Global Init -->
+        <script src="assets/js/custom.js"></script>
+        <script src="main.js"></script>
+        <script src="assets/js/main2.js"></script>
+</body>
+
+</html>
