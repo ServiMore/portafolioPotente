@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="fadeIn fadeInDown">
+        <div class="login-container">
+            <div class="login-info-container">
+                <h1 class="title">Bienvenido</h1>
+                <div class="social-login">
+                    <div class="social-login-element">
+                        <a href="https://www.youtube.com/"><img src="img/google.svg" alt="google-image">
+                            <span>Google</span></a>
+                    </div>
+                    <div class="social-login-element">
+                        <img src="img/facebook.svg" alt="facebook-image">
+                        <span>Facebook</span>
+                    </div>
+                </div>
+                <p>o</p>
+                <form class="inputs-container" name="login" >
+                    <input name="usuario" class="input" type="text" placeholder="Usuario" id="input_usuario"
+                        required><span class="barra"></span>
+                    <input name="password" class="input" type="password" placeholder="Contraseña" id="input_pass"
+                        required>
+
+                    <p>Olvidaste tu contraseña? <span class="span">Click Aqui</span></p>
+                    <input type="button" style="text-align:center;" class="btn btn-success" id="Enviar" onclick="Login()"
+                    value="Login"></input> </form>
+                    <p>No tienes una cuenta? <a href="registro.html"><span class="span">Crear cuenta</span></a></p>
+                   
+            </div>
+            <img class="image-container" src="img/login.svg" alt="">
+        </div>
+    </div>
+
+    <script type="text/javascript" src="codigo.js"></script>
+    
+    <script>
+// $(document).ready(function(){
+//     let htmlForm=$('.login-container').html();
+//     $('.login-container').html('');
+//     let image=`
+//     <center>
+//     <img src="img/antes1.svg" style="margin-left: 10%; margin-top: 20%"  alt="" srcset="">
+// </center>
+//     `;
+//     $('.login-container').html(image);
+//     setTimeout(()=>{
+//         $('.login-container').html(htmlForm);
+//     },5000)
+// });
+
+    //   let param=window.location.search;
+    //   let array=param.split('?');
+    //   console.log(array[1]);
+    //   let htmlForm=$('.login-info-container').html();
+    //   console.log(htmlForm);
+    //   let mensaje="";
+
+    //   if(array[1]==='e'){
+    
+    //     console.log('existe');
+    
+    //    mensaje='El usuario existe';
+    //   }
+    //   else if(array[1]==='n'){
+    //     console.log('no existe');
+    //     mensaje='El usuario se ha creado correctamente';
+        
+    //     }
+    //     else if(array[1]==='x'){
+    //     console.log('no existe');
+    //     mensaje='Sin coincidencias';
+        
+    //     }
+    //     else if(array[1]==='y'){
+    //     console.log('no existe');
+    //     mensaje='Bienvenido';
+        
+    //     }
+    //     else{alert="";}
+    //     let alert=`
+    //   <div style="text-align:center" class="alert alert-warning alert-dismissible fade show" role="alert">
+    //   ${mensaje}
+    //   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    // </div>
+    //   `;
+    //     $('.login-info-container').html(alert+htmlForm);
+    </script>  
+</body>
+
+</html>
