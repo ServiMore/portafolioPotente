@@ -314,6 +314,10 @@ img{
     padding-top: 4rem;
     padding-bottom: 3rem;
   }
+  .section .card{
+    padding-left: 2rem;
+ }
+ .wor
   .section-title{
     margin-bottom: var(--mb-6);
   }

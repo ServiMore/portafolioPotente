@@ -11,17 +11,23 @@
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="portafolio_miguel/assets/css/estilos.css">
-    <link rel="stylesheet" href="portafolio_miguel/assets/css/styles.css">
     <link rel="stylesheet" href="portafolio_miguel/styles.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
     <link rel="stylesheet" href="portafolio_miguel/assets/css/bootstrap.min.css">
-
+    <link rel="stylesheet" href="carousel/style.css">
+    <link rel="stylesheet" href="styleGig.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <!-- =====BOX ICONS===== -->
 
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oswald:500,600" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
     <title>Chamano Main</title>
     <style>
         * {
@@ -183,7 +189,7 @@ https://templatemo.com/tm-535-softy-pinko
                     <div class="nav__items">
                         <h3 class="nav__subtitle">Profile</h3>
 
-                        <a href="index.html" class="nav__link active">
+                        <a href="index.html" class="nav__link">
                             <i class='bx bx-home nav__icon'></i>
                             <span class="nav__name">Home</span>
                         </a>
@@ -264,7 +270,8 @@ https://templatemo.com/tm-535-softy-pinko
                             <h1>Te proveemos la mejor <strong>estrategia</strong><br>para empezar tu
                                 <strong>Emprendimiento</strong>
                             </h1>
-                            <p><strong>Chamano una plataforma profesional para que saques provecho de tus habilidades.</strong></p>
+                            <p><strong>Chamano una plataforma profesional para que saques provecho de tus
+                                    habilidades.</strong></p>
                             <a href="#features" class="main-button-slider">Descubre mas</a>
                         </div>
                     </div>
@@ -285,10 +292,11 @@ https://templatemo.com/tm-535-softy-pinko
                                 data-scroll-reveal="enter bottom move 50px over 0.6s after 0.2s">
                                 <div class="features-small-item">
                                     <div class="icon">
-                                        <i><img src="portafolio_miguel/assets/images/featured-item-01.png" alt=""></i>
+                                        <i><img src="portafolio_miguel/assets/images/left-image.png" alt=""></i>
                                     </div>
                                     <h5 class="features-title">Hablemos de tus servicios</h5>
-                                    <p>Empezaras planteandote que quieres hacer, que tipo de servicio ofreceras. La mejor manera de empezar a emprender es conociendo tus capacidades.</p>
+                                    <p>Empezaras planteandote que quieres hacer, que tipo de servicio ofreceras. La
+                                        mejor manera de empezar a emprender es conociendo tus capacidades.</p>
                                 </div>
                             </div>
                             <!-- ***** Features Small Item End ***** -->
@@ -298,10 +306,11 @@ https://templatemo.com/tm-535-softy-pinko
                                 data-scroll-reveal="enter bottom move 50px over 0.6s after 0.4s">
                                 <div class="features-small-item">
                                     <div class="icon">
-                                        <i><img src="portafolio_miguel/assets/images/featured-item-01.png" alt=""></i>
+                                        <i><img src="portafolio_miguel/assets/images/right-image.png" alt=""></i>
                                     </div>
-                                    <h5 class="features-title">Mejor Comunicacion</h5>
-                                    <p>Tiene cabeza y tiene cola</p>
+                                    <h5 class="features-title">Podras empezar con tu negocio digital</h5>
+                                    <p>Crea tu perfil definiendo que es lo que mostraras a los usuarios, entre mas
+                                        completo el perfil mas oportunidad tendras de ser mas solicitado que otros.</p>
                                 </div>
                             </div>
                             <!-- ***** Features Small Item End ***** -->
@@ -313,8 +322,9 @@ https://templatemo.com/tm-535-softy-pinko
                                     <div class="icon">
                                         <i><img src="portafolio_miguel/assets/images/featured-item-01.png" alt=""></i>
                                     </div>
-                                    <h5 class="features-title">Marketing Definitivo</h5>
-                                    <p>Y hace Muuuuu</p>
+                                    <h5 class="features-title">Desde la comodidad de tu hogar</h5>
+                                    <p>No necesitas moverte de tu zona de confort, crea tu perfil de vendedor y empieza
+                                        a trabajar ya en chamano.</p>
                                 </div>
                             </div>
                             <!-- ***** Features Small Item End ***** -->
@@ -328,25 +338,229 @@ https://templatemo.com/tm-535-softy-pinko
         <!-- ***** Features Big Item Start ***** -->
         <section class="section padding-top-70 padding-bottom-0" id="features">
             <div class="container">
+        <h2>Mas popular en Diseño</h2> <hr>
+
                 <div class="row">
-                    <div class="col-lg-5 col-md-12 col-sm-12 align-self-center"
-                        data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                        <img src="portafolio_miguel/assets/images/left-image.png" class="rounded img-fluid d-block mx-auto" alt="App">
-                    </div>
-                    <div class="col-lg-1"></div>
-                    <div class="col-lg-6 col-md-12 col-sm-12 align-self-center mobile-top-fix">
-                        <div class="left-heading">
-                            <h2 class="section-title">Hablemos de tus servicios</h2>
+                    <div class="cardContainer inactive">
+                        <div class="card">
+                            <div class="side front">
+                                <div class="img img1"></div>
+                                <div class="info">
+                                    <h2>Mijhasila_18</h2>
+                                    <p>Voy a crear el diseño de logo perfecto para tus necesidades.</p>
+                                </div>
+                            </div>
+                            <div class="side back">
+                                <div class="info">
+                                    <h2>Precio base de 5$</h2>
+                                    <div class="reviews">
+                                        <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0 0h24v24H0z" fill="none" />
+                                            <path
+                                                d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                            <path d="M0 0h24v24H0z" fill="none" />
+                                        </svg>
+                                        <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0 0h24v24H0z" fill="none" />
+                                            <path
+                                                d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                            <path d="M0 0h24v24H0z" fill="none" />
+                                        </svg>
+                                        <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0 0h24v24H0z" fill="none" />
+                                            <path
+                                                d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                            <path d="M0 0h24v24H0z" fill="none" />
+                                        </svg>
+                                        <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0 0h24v24H0z" fill="none" />
+                                            <path
+                                                d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                            <path d="M0 0h24v24H0z" fill="none" />
+                                        </svg>
+                                        <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs>
+                                                <path d="M0 0h24v24H0V0z" id="a" />
+                                            </defs>
+                                            <clipPath id="b">
+                                                <use overflow="visible" xlink:href="#a" />
+                                            </clipPath>
+                                            <path clip-path="url(#b)"
+                                                d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4V6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z" />
+                                        </svg>
+                                        <p>23 Reseñas</p>
+                                    </div>
+                                    <ul>
+                                        <li>Dibujo de 2 horas de trabajo</li>
+                                        <li>Fondo blanco y negro</li>
+                                        <li>Delineado a grafito</li>
+                                    </ul>
+                                    <div class="btn">
+                                        <h4><a href="portafolio_miguel/index.html">Ver portafolio</a></h4>
+                                        <svg fill="#333" height="24" viewBox="0 0 24 24" width="24"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z" />
+                                            <path d="M0-.25h24v24H0z" fill="none" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="left-text">
-                            <p>Empezaras planteandote que quieres hacer, que tipo de servicio ofreceras. La mejor manera
-                                de empezar a emprender es conociendo tus capacidades.</p>
+                    </div>
+
+                    
+
+                    <div class="cardContainer inactive">
+                        <div class="card">
+                            <div class="side front">
+                                <div class="img img1"></div>
+                                <div class="info">
+                                    <h2>Mijhasila_18</h2>
+                                    <p>Voy a crear el diseño de logo perfecto para tus necesidades.</p>
+                                </div>
+                            </div>
+                            <div class="side back">
+                                <div class="info">
+                                    <h2>Precio base de 5$</h2>
+                                    <div class="reviews">
+                                        <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0 0h24v24H0z" fill="none" />
+                                            <path
+                                                d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                            <path d="M0 0h24v24H0z" fill="none" />
+                                        </svg>
+                                        <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0 0h24v24H0z" fill="none" />
+                                            <path
+                                                d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                            <path d="M0 0h24v24H0z" fill="none" />
+                                        </svg>
+                                        <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0 0h24v24H0z" fill="none" />
+                                            <path
+                                                d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                            <path d="M0 0h24v24H0z" fill="none" />
+                                        </svg>
+                                        <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0 0h24v24H0z" fill="none" />
+                                            <path
+                                                d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                            <path d="M0 0h24v24H0z" fill="none" />
+                                        </svg>
+                                        <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs>
+                                                <path d="M0 0h24v24H0V0z" id="a" />
+                                            </defs>
+                                            <clipPath id="b">
+                                                <use overflow="visible" xlink:href="#a" />
+                                            </clipPath>
+                                            <path clip-path="url(#b)"
+                                                d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4V6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z" />
+                                        </svg>
+                                        <p>23 Reseñas</p>
+                                    </div>
+                                    <ul>
+                                        <li>Dibujo de 2 horas de trabajo</li>
+                                        <li>Fondo blanco y negro</li>
+                                        <li>Delineado a grafito</li>
+                                    </ul>
+                                    <div class="btn">
+                                        <h4><a href="portafolio_miguel/index.html">Ver portafolio</a></h4>
+                                        <svg fill="#333" height="24" viewBox="0 0 24 24" width="24"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z" />
+                                            <path d="M0-.25h24v24H0z" fill="none" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="hr"></div>
+
+             
+                    <div class="cardContainer inactive">
+                        <div class="card">
+                            <div class="side front">
+                                <div class="img img1"></div>
+                                <div class="info">
+                                    <h2>Mijhasila_18</h2>
+                                    <p>Voy a crear el diseño de logo perfecto para tus necesidades.</p>
+                                </div>
+                            </div>
+                            <div class="side back">
+                                <div class="info">
+                                    <h2>Precio base de 5$</h2>
+                                    <div class="reviews">
+                                        <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0 0h24v24H0z" fill="none" />
+                                            <path
+                                                d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                            <path d="M0 0h24v24H0z" fill="none" />
+                                        </svg>
+                                        <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0 0h24v24H0z" fill="none" />
+                                            <path
+                                                d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                            <path d="M0 0h24v24H0z" fill="none" />
+                                        </svg>
+                                        <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0 0h24v24H0z" fill="none" />
+                                            <path
+                                                d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                            <path d="M0 0h24v24H0z" fill="none" />
+                                        </svg>
+                                        <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0 0h24v24H0z" fill="none" />
+                                            <path
+                                                d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                                            <path d="M0 0h24v24H0z" fill="none" />
+                                        </svg>
+                                        <svg fill="#FFC324" height="24" viewBox="0 0 24 24" width="24"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <defs>
+                                                <path d="M0 0h24v24H0V0z" id="a" />
+                                            </defs>
+                                            <clipPath id="b">
+                                                <use overflow="visible" xlink:href="#a" />
+                                            </clipPath>
+                                            <path clip-path="url(#b)"
+                                                d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4V6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z" />
+                                        </svg>
+                                        <p>23 Reseñas</p>
+                                    </div>
+                                    <ul>
+                                        <li>Dibujo de 2 horas de trabajo</li>
+                                        <li>Fondo blanco y negro</li>
+                                        <li>Delineado a grafito</li>
+                                    </ul>
+                                    <div class="btn">
+                                        <h4><a href="portafolio_miguel/index.html">Ver portafolio</a></h4>
+                                        <svg fill="#333" height="24" viewBox="0 0 24 24" width="24"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z" />
+                                            <path d="M0-.25h24v24H0z" fill="none" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -354,32 +568,11 @@ https://templatemo.com/tm-535-softy-pinko
         <!-- ***** Features Big Item End ***** -->
 
         <!-- ***** Features Big Item Start ***** -->
-        <section class="section padding-bottom-100">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-12 col-sm-12 align-self-center mobile-bottom-fix">
-                        <div class="left-heading">
-                            <h2 class="section-title">Podras empezar con tu negocio digital</h2>
-                        </div>
-                        <div class="left-text">
-                            <p>Crea tu perfil definiendo que es lo que mostraras a los usuarios, entre mas completo el
-                                perfin mas oportunidad
-                                tendras de ser mas solicitado que otros.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-1"></div>
-                    <div class="col-lg-5 col-md-12 col-sm-12 align-self-center mobile-bottom-fix-big"
-                        data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
-                        <img src="portafolio_miguel/assets/images/right-image.png" class="rounded img-fluid d-block mx-auto" alt="App">
-                    </div>
-                </div>
-            </div>
-        </section>
+
         <!-- ***** Features Big Item End ***** -->
 
         <!-- ***** Home Parallax Start ***** -->
-        <section class="mini" id="work-process">
+        <!-- <section class="mini" id="work-process">
             <div class="mini-content">
                 <div class="container">
                     <div class="row">
@@ -391,7 +584,6 @@ https://templatemo.com/tm-535-softy-pinko
                         </div>
                     </div>
 
-                    <!-- ***** Mini Box Start ***** -->
                     <div class="row">
                         <div class="col-lg-2 col-md-3 col-sm-6 col-6">
                             <a href="#" class="mini-box">
@@ -441,10 +633,9 @@ https://templatemo.com/tm-535-softy-pinko
                             </a>
                         </div>
                     </div>
-                    <!-- ***** Mini Box End ***** -->
                 </div>
             </div>
-        </section>
+        </section> -->
 
 
         <!-- ***** Blog Start ***** -->
@@ -579,7 +770,9 @@ https://templatemo.com/tm-535-softy-pinko
                                             <button type="submit" id="form-submit" class="main-button">Enviar
                                                 Mensaje</button>
                                         </fieldset>
-                                        <p><a href="https://www.mediafire.com/file/203kczeb8zd8e00/Chamano_1_1.0.apk/file">Descarga la app</a></p>
+                                        <p><a
+                                                href="https://www.mediafire.com/file/203kczeb8zd8e00/Chamano_1_1.0.apk/file">Descarga
+                                                la app</a></p>
                                     </div>
                                 </div>
                             </form>
@@ -590,7 +783,7 @@ https://templatemo.com/tm-535-softy-pinko
             </div>
         </section>
         <!-- Button trigger modal -->
-        
+
         <!-- ***** Contact Us End ***** -->
 
         <!-- ***** Footer Start ***** -->
@@ -636,7 +829,27 @@ https://templatemo.com/tm-535-softy-pinko
                 </div>
             </div>
         </footer>
+        <script>
+            $(".slider").owlCarousel({
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 2000, //2000ms = 2s;
+                autoplayHoverPause: true,
+            });
+        </script>
+        <script>
+            const cards = document.querySelectorAll('.card');
 
+            function transition() {
+                if (this.classList.contains('active')) {
+                    this.classList.remove('active');
+                } else {
+                    this.classList.add('active');
+                }
+            }
+
+            cards.forEach(card => card.addEventListener('click', transition));
+        </script>
         <!-- jQuery -->
         <script src="portafolio_miguel/assets/js/jquery-2.1.0.min.js"></script>
 
