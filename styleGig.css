@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+strong{
+  background-color: rgb(233, 161, 233);
+  border-radius: 3px;
+}
 h2, h4, p  {
   margin: 0;
   padding: 0;
